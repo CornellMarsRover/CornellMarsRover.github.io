@@ -12,7 +12,7 @@ var searchData=
   ['servo_5fparameters_2ecpp_9',['servo_parameters.cpp',['../servo__parameters_8cpp.html',1,'']]],
   ['servo_5fparameters_2eh_10',['servo_parameters.h',['../servo__parameters_8h.html',1,'']]],
   ['servo_5fserver_2eh_11',['servo_server.h',['../servo__server_8h.html',1,'']]],
-  ['setup_2epy_12',['setup.py',['../cmr__rovernet_2setup_8py.html',1,'(Global Namespace)'],['../cmr__param__gui_2setup_8py.html',1,'(Global Namespace)'],['../cmr__imu_2setup_8py.html',1,'(Global Namespace)'],['../cmr__controller__remote_2setup_8py.html',1,'(Global Namespace)'],['../cmr__arm__sim_2setup_8py.html',1,'(Global Namespace)']]],
+  ['setup_2epy_12',['setup.py',['../cmr__rovernet_2setup_8py.html',1,'(Global Namespace)'],['../usb__camera__publisher_2setup_8py.html',1,'(Global Namespace)'],['../cmr__param__gui_2setup_8py.html',1,'(Global Namespace)'],['../cmr__imu_2setup_8py.html',1,'(Global Namespace)'],['../cmr__controller__remote_2setup_8py.html',1,'(Global Namespace)'],['../cmr__arm__sim_2setup_8py.html',1,'(Global Namespace)']]],
   ['setup_5fassistant_2elaunch_2epy_13',['setup_assistant.launch.py',['../setup__assistant_8launch_8py.html',1,'']]],
   ['spawn_5fcontrollers_2elaunch_2epy_14',['spawn_controllers.launch.py',['../spawn__controllers_8launch_8py.html',1,'']]],
   ['static_5fvirtual_5fjoint_5ftfs_2elaunch_2epy_15',['static_virtual_joint_tfs.launch.py',['../static__virtual__joint__tfs_8launch_8py.html',1,'']]],

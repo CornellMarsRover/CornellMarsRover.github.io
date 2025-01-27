@@ -69,7 +69,6 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classcmr_1_1fabric_1_1ActionServerPolicy-members.html">List of all members</a>  </div>
@@ -82,17 +81,6 @@ $(function() {
 
 <p><code>#include &lt;<a class="el" href="lifecycle__actions_8hpp_source.html">lifecycle_actions.hpp</a>&gt;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcmr_1_1fabric_1_1ActionServerPolicy_1_1ActionDefaultReturnConstruct.html">ActionDefaultReturnConstruct</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcmr_1_1fabric_1_1ActionServerPolicy_1_1ActionDefaultReturnConstruct_3_01rclcpp__action_1_1CancelResponse_01_4.html">ActionDefaultReturnConstruct&lt; rclcpp_action::CancelResponse &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specialization for the cancel response error value.  <a href="structcmr_1_1fabric_1_1ActionServerPolicy_1_1ActionDefaultReturnConstruct_3_01rclcpp__action_1_1CancelResponse_01_4.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcmr_1_1fabric_1_1ActionServerPolicy_1_1ActionDefaultReturnConstruct_3_01rclcpp__action_1_1GoalResponse_01_4.html">ActionDefaultReturnConstruct&lt; rclcpp_action::GoalResponse &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specialization for the goal response error value.  <a href="structcmr_1_1fabric_1_1ActionServerPolicy_1_1ActionDefaultReturnConstruct_3_01rclcpp__action_1_1GoalResponse_01_4.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:a2a58e26b675856c677b22ea74c22aa92"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcmr_1_1fabric_1_1ActionServerPolicy.html#a2a58e26b675856c677b22ea74c22aa92">server_t</a> = <a class="el" href="classrclcpp__action_1_1Server.html">rclcpp_action::Server</a>&lt; ActionT &gt;</td></tr>
@@ -106,14 +94,13 @@ Public Types</h2></td></tr>
 <tr class="memitem:af90efe0029a584f2ba7d28a66b4e8c18"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcmr_1_1fabric_1_1ActionServerPolicy.html#af90efe0029a584f2ba7d28a66b4e8c18">accepted_cb_t</a> = typename server_t::AcceptedCallback</td></tr>
 <tr class="separator:af90efe0029a584f2ba7d28a66b4e8c18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6eb6648931ea5fe58fd375e9946d0a5"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ae6eb6648931ea5fe58fd375e9946d0a5"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classcmr_1_1fabric_1_1ActionServerPolicy.html#ae6eb6648931ea5fe58fd375e9946d0a5">make_return_t</a> = <a class="el" href="structcmr_1_1fabric_1_1ActionServerPolicy_1_1ActionDefaultReturnConstruct.html">ActionDefaultReturnConstruct</a>&lt; T &gt;</td></tr>
+<tr class="memitem:ae6eb6648931ea5fe58fd375e9946d0a5"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classcmr_1_1fabric_1_1ActionServerPolicy.html#ae6eb6648931ea5fe58fd375e9946d0a5">make_return_t</a> = <a class="el" href="structcmr_1_1fabric_1_1ActionDefaultReturnConstruct.html">ActionDefaultReturnConstruct</a>&lt; T &gt;</td></tr>
 <tr class="separator:ae6eb6648931ea5fe58fd375e9946d0a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ae5eff7d14a8513e24ed1fd2c31aa64fb"><td class="memTemplParams" colspan="2">template&lt;typename &gt; </td></tr>
 <tr class="memitem:ae5eff7d14a8513e24ed1fd2c31aa64fb"><td class="memTemplItemLeft" align="right" valign="top">static auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classcmr_1_1fabric_1_1ActionServerPolicy.html#ae5eff7d14a8513e24ed1fd2c31aa64fb">make_server</a> (rclcpp_lifecycle::LifecycleNode &amp;node_base, <a class="el" href="classcmr_1_1fabric_1_1ActionServerPolicy.html#a161276250fb96f2cd28bf0a76a48540c">goal_cb_t</a> goal_callback, <a class="el" href="classcmr_1_1fabric_1_1ActionServerPolicy.html#ad412458072d91eae7cde69f371b89eea">cancel_cb_t</a> cancel_cb, <a class="el" href="classcmr_1_1fabric_1_1ActionServerPolicy.html#af90efe0029a584f2ba7d28a66b4e8c18">accepted_cb_t</a> accpted_cb, const <a class="el" href="classcmr_1_1fabric_1_1ActionServerPolicy.html#aa6b09e8a7e4eb89d30d11023a139cb33">config_t</a> config)</td></tr>
-<tr class="memdesc:ae5eff7d14a8513e24ed1fd2c31aa64fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new Action.  <a href="classcmr_1_1fabric_1_1ActionServerPolicy.html#ae5eff7d14a8513e24ed1fd2c31aa64fb">More...</a><br /></td></tr>
 <tr class="separator:ae5eff7d14a8513e24ed1fd2c31aa64fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -121,7 +108,7 @@ Static Public Member Functions</h2></td></tr>
 class cmr::fabric::ActionServerPolicy&lt; ActionT &gt;</div><p >A class that provides an action server to <a class="el" href="classcmr_1_1fabric_1_1LifecycleServer.html" title="Creates a managed server that can be activated and deactivated.">LifecycleServer</a>. </p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
-    <tr><td class="paramname">ServiceT</td><td></td></tr>
+    <tr><td class="paramname">ActionT</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -201,7 +188,7 @@ template&lt;typename ActionT &gt; </div>
 template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classcmr_1_1fabric_1_1ActionServerPolicy.html">cmr::fabric::ActionServerPolicy</a>&lt; ActionT &gt;::make_return_t =  <a class="el" href="structcmr_1_1fabric_1_1ActionServerPolicy_1_1ActionDefaultReturnConstruct.html">ActionDefaultReturnConstruct</a>&lt;T&gt;</td>
+          <td class="memname">using <a class="el" href="classcmr_1_1fabric_1_1ActionServerPolicy.html">cmr::fabric::ActionServerPolicy</a>&lt; ActionT &gt;::make_return_t =  <a class="el" href="structcmr_1_1fabric_1_1ActionDefaultReturnConstruct.html">ActionDefaultReturnConstruct</a>&lt;T&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -281,20 +268,6 @@ template&lt;typename &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Construct a new Action. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">node_base</td><td>owning node which must outlive the action </td></tr>
-    <tr><td class="paramname">topic_name</td><td>action server name </td></tr>
-    <tr><td class="paramname">goal_callback</td><td>callback for when a new goal is received </td></tr>
-    <tr><td class="paramname">cancel_callback</td><td>callback for when a goal is cancelled </td></tr>
-    <tr><td class="paramname">accepted_callback</td><td>callback for when a goal is accepted from the <code>goal_callback</code> </td></tr>
-    <tr><td class="paramname">config</td><td>configuration for the service </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>std::shared_ptr&lt;server_t&gt; the action server </dd></dl>
-
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
@@ -304,7 +277,7 @@ template&lt;typename &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Nov 24 2024 17:56:17 for Terra by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4
+Generated on Mon Jan 27 2025 23:57:25 for Terra by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4
 </small></address>
 </body>
 </html>

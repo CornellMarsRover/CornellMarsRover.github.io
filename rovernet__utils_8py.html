@@ -85,6 +85,21 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:ab88e0d99a3b30ab2eb9946e92800b7ae"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecmr__rovernet_1_1rovernet__utils.html#ab88e0d99a3b30ab2eb9946e92800b7ae">cmr_rovernet.rovernet_utils.init_moteus_loop</a> ()</td></tr>
+<tr class="memdesc:ab88e0d99a3b30ab2eb9946e92800b7ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a dedicated asyncio event loop in a separate thread.  <a href="namespacecmr__rovernet_1_1rovernet__utils.html#ab88e0d99a3b30ab2eb9946e92800b7ae">More...</a><br /></td></tr>
+<tr class="separator:ab88e0d99a3b30ab2eb9946e92800b7ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a460f94ae9a6430a075a5132fe3b1b43f"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecmr__rovernet_1_1rovernet__utils.html#a460f94ae9a6430a075a5132fe3b1b43f">cmr_rovernet.rovernet_utils._send_moteus_stop_async</a> (moteus.Controller controller, int motor, logging.Logger|None logger=None)</td></tr>
+<tr class="memdesc:a460f94ae9a6430a075a5132fe3b1b43f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The actual async version of stopping the servo.  <a href="namespacecmr__rovernet_1_1rovernet__utils.html#a460f94ae9a6430a075a5132fe3b1b43f">More...</a><br /></td></tr>
+<tr class="separator:a460f94ae9a6430a075a5132fe3b1b43f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefc889331cc74ca64a50f69e0e3de3cd"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecmr__rovernet_1_1rovernet__utils.html#aefc889331cc74ca64a50f69e0e3de3cd">cmr_rovernet.rovernet_utils.send_moteus_stop_sync</a> (moteus.Controller controller, int motor, logging.Logger|None logger=None)</td></tr>
+<tr class="memdesc:aefc889331cc74ca64a50f69e0e3de3cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Synchronous wrapper that schedules an async stop call on our single global event loop thread, then waits for completion.  <a href="namespacecmr__rovernet_1_1rovernet__utils.html#aefc889331cc74ca64a50f69e0e3de3cd">More...</a><br /></td></tr>
+<tr class="separator:aefc889331cc74ca64a50f69e0e3de3cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1e0d2d83f6d46b3b3953e8ee4f9a4fb"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecmr__rovernet_1_1rovernet__utils.html#ae1e0d2d83f6d46b3b3953e8ee4f9a4fb">cmr_rovernet.rovernet_utils._send_moteus_command_async</a> (moteus.Controller controller, int motor, float|None position, float|None drives_velocity, float|None maximum_torque, float|None velocity_limit, float|None accel_limit, float|None ff_torque, logging.Logger|None logger=None)</td></tr>
+<tr class="memdesc:ae1e0d2d83f6d46b3b3953e8ee4f9a4fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">The actual async version of sending commands to moteus.  <a href="namespacecmr__rovernet_1_1rovernet__utils.html#ae1e0d2d83f6d46b3b3953e8ee4f9a4fb">More...</a><br /></td></tr>
+<tr class="separator:ae1e0d2d83f6d46b3b3953e8ee4f9a4fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbabbd8f29c03ebe61b93129ec9f234d"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecmr__rovernet_1_1rovernet__utils.html#afbabbd8f29c03ebe61b93129ec9f234d">cmr_rovernet.rovernet_utils.send_moteus_command_sync</a> (moteus.Controller controller, int motor, float|None position, float|None drives_velocity, float|None maximum_torque, float|None velocity_limit, float|None accel_limit, float|None ff_torque, logging.Logger|None logger=None)</td></tr>
+<tr class="memdesc:afbabbd8f29c03ebe61b93129ec9f234d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Synchronous wrapper that schedules an async call on the single global event loop thread, then waits for completion.  <a href="namespacecmr__rovernet_1_1rovernet__utils.html#afbabbd8f29c03ebe61b93129ec9f234d">More...</a><br /></td></tr>
+<tr class="separator:afbabbd8f29c03ebe61b93129ec9f234d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d3d90baf4694ebc14876f332c371146"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecmr__rovernet_1_1rovernet__utils.html#a0d3d90baf4694ebc14876f332c371146">cmr_rovernet.rovernet_utils.byte_command_converter</a> (subteam, motor, position, drives_velocity, max_torque, max_vel, max_accel, ff_torque, logger)</td></tr>
 <tr class="memdesc:a0d3d90baf4694ebc14876f332c371146"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to convert a given motor command into a 40-byte encoding.  <a href="namespacecmr__rovernet_1_1rovernet__utils.html#a0d3d90baf4694ebc14876f332c371146">More...</a><br /></td></tr>
 <tr class="separator:a0d3d90baf4694ebc14876f332c371146"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -175,6 +190,10 @@ Variables</h2></td></tr>
 <tr class="separator:a843b52d2e6da21d3ded9b1b3fdbe2a9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b4f140d7d5dac143406c4df6df10b48"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecmr__rovernet_1_1rovernet__utils.html#a9b4f140d7d5dac143406c4df6df10b48">cmr_rovernet.rovernet_utils.maxWheelVelocity</a> = 12</td></tr>
 <tr class="separator:a9b4f140d7d5dac143406c4df6df10b48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0406ddf153dce2687f39af04a6f226c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecmr__rovernet_1_1rovernet__utils.html#af0406ddf153dce2687f39af04a6f226c">cmr_rovernet.rovernet_utils._moteus_loop</a> = None</td></tr>
+<tr class="separator:af0406ddf153dce2687f39af04a6f226c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8c46522df153f1fd48cd0be8f3501f0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecmr__rovernet_1_1rovernet__utils.html#af8c46522df153f1fd48cd0be8f3501f0">cmr_rovernet.rovernet_utils._moteus_loop_thread</a> = None</td></tr>
+<tr class="separator:af8c46522df153f1fd48cd0be8f3501f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4426f1884e0e75a4166aec5e4d48576b"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecmr__rovernet_1_1rovernet__utils.html#a4426f1884e0e75a4166aec5e4d48576b">cmr_rovernet.rovernet_utils.drives_net_table</a> = parse_toml(&quot;drivesnet&quot;)</td></tr>
 <tr class="separator:a4426f1884e0e75a4166aec5e4d48576b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1af6127b24b2f8be5997108501dad887"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecmr__rovernet_1_1rovernet__utils.html#a1af6127b24b2f8be5997108501dad887">cmr_rovernet.rovernet_utils.drives_net_node</a> = drives_net_table['node']</td></tr>
@@ -197,7 +216,7 @@ Variables</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Nov 24 2024 17:56:17 for Terra by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4
+Generated on Mon Jan 27 2025 23:57:25 for Terra by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4
 </small></address>
 </body>
 </html>

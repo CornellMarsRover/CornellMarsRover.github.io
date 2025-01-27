@@ -77,6 +77,21 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:ab88e0d99a3b30ab2eb9946e92800b7ae"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecmr__rovernet_1_1rovernet__utils.html#ab88e0d99a3b30ab2eb9946e92800b7ae">init_moteus_loop</a> ()</td></tr>
+<tr class="memdesc:ab88e0d99a3b30ab2eb9946e92800b7ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a dedicated asyncio event loop in a separate thread.  <a href="namespacecmr__rovernet_1_1rovernet__utils.html#ab88e0d99a3b30ab2eb9946e92800b7ae">More...</a><br /></td></tr>
+<tr class="separator:ab88e0d99a3b30ab2eb9946e92800b7ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a460f94ae9a6430a075a5132fe3b1b43f"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecmr__rovernet_1_1rovernet__utils.html#a460f94ae9a6430a075a5132fe3b1b43f">_send_moteus_stop_async</a> (moteus.Controller controller, int motor, logging.Logger|None logger=None)</td></tr>
+<tr class="memdesc:a460f94ae9a6430a075a5132fe3b1b43f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The actual async version of stopping the servo.  <a href="namespacecmr__rovernet_1_1rovernet__utils.html#a460f94ae9a6430a075a5132fe3b1b43f">More...</a><br /></td></tr>
+<tr class="separator:a460f94ae9a6430a075a5132fe3b1b43f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefc889331cc74ca64a50f69e0e3de3cd"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecmr__rovernet_1_1rovernet__utils.html#aefc889331cc74ca64a50f69e0e3de3cd">send_moteus_stop_sync</a> (moteus.Controller controller, int motor, logging.Logger|None logger=None)</td></tr>
+<tr class="memdesc:aefc889331cc74ca64a50f69e0e3de3cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Synchronous wrapper that schedules an async stop call on our single global event loop thread, then waits for completion.  <a href="namespacecmr__rovernet_1_1rovernet__utils.html#aefc889331cc74ca64a50f69e0e3de3cd">More...</a><br /></td></tr>
+<tr class="separator:aefc889331cc74ca64a50f69e0e3de3cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1e0d2d83f6d46b3b3953e8ee4f9a4fb"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecmr__rovernet_1_1rovernet__utils.html#ae1e0d2d83f6d46b3b3953e8ee4f9a4fb">_send_moteus_command_async</a> (moteus.Controller controller, int motor, float|None position, float|None drives_velocity, float|None maximum_torque, float|None velocity_limit, float|None accel_limit, float|None ff_torque, logging.Logger|None logger=None)</td></tr>
+<tr class="memdesc:ae1e0d2d83f6d46b3b3953e8ee4f9a4fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">The actual async version of sending commands to moteus.  <a href="namespacecmr__rovernet_1_1rovernet__utils.html#ae1e0d2d83f6d46b3b3953e8ee4f9a4fb">More...</a><br /></td></tr>
+<tr class="separator:ae1e0d2d83f6d46b3b3953e8ee4f9a4fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbabbd8f29c03ebe61b93129ec9f234d"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecmr__rovernet_1_1rovernet__utils.html#afbabbd8f29c03ebe61b93129ec9f234d">send_moteus_command_sync</a> (moteus.Controller controller, int motor, float|None position, float|None drives_velocity, float|None maximum_torque, float|None velocity_limit, float|None accel_limit, float|None ff_torque, logging.Logger|None logger=None)</td></tr>
+<tr class="memdesc:afbabbd8f29c03ebe61b93129ec9f234d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Synchronous wrapper that schedules an async call on the single global event loop thread, then waits for completion.  <a href="namespacecmr__rovernet_1_1rovernet__utils.html#afbabbd8f29c03ebe61b93129ec9f234d">More...</a><br /></td></tr>
+<tr class="separator:afbabbd8f29c03ebe61b93129ec9f234d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d3d90baf4694ebc14876f332c371146"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecmr__rovernet_1_1rovernet__utils.html#a0d3d90baf4694ebc14876f332c371146">byte_command_converter</a> (subteam, motor, position, drives_velocity, max_torque, max_vel, max_accel, ff_torque, logger)</td></tr>
 <tr class="memdesc:a0d3d90baf4694ebc14876f332c371146"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to convert a given motor command into a 40-byte encoding.  <a href="namespacecmr__rovernet_1_1rovernet__utils.html#a0d3d90baf4694ebc14876f332c371146">More...</a><br /></td></tr>
 <tr class="separator:a0d3d90baf4694ebc14876f332c371146"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -167,6 +182,10 @@ Variables</h2></td></tr>
 <tr class="separator:a843b52d2e6da21d3ded9b1b3fdbe2a9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b4f140d7d5dac143406c4df6df10b48"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecmr__rovernet_1_1rovernet__utils.html#a9b4f140d7d5dac143406c4df6df10b48">maxWheelVelocity</a> = 12</td></tr>
 <tr class="separator:a9b4f140d7d5dac143406c4df6df10b48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0406ddf153dce2687f39af04a6f226c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecmr__rovernet_1_1rovernet__utils.html#af0406ddf153dce2687f39af04a6f226c">_moteus_loop</a> = None</td></tr>
+<tr class="separator:af0406ddf153dce2687f39af04a6f226c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8c46522df153f1fd48cd0be8f3501f0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecmr__rovernet_1_1rovernet__utils.html#af8c46522df153f1fd48cd0be8f3501f0">_moteus_loop_thread</a> = None</td></tr>
+<tr class="separator:af8c46522df153f1fd48cd0be8f3501f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4426f1884e0e75a4166aec5e4d48576b"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecmr__rovernet_1_1rovernet__utils.html#a4426f1884e0e75a4166aec5e4d48576b">drives_net_table</a> = <a class="el" href="namespacecmr__rovernet_1_1rovernet__utils.html#a21d5b27c381874f34b5de0c72a37d0a8">parse_toml</a>(&quot;drivesnet&quot;)</td></tr>
 <tr class="separator:a4426f1884e0e75a4166aec5e4d48576b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1af6127b24b2f8be5997108501dad887"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecmr__rovernet_1_1rovernet__utils.html#a1af6127b24b2f8be5997108501dad887">drives_net_node</a> = <a class="el" href="namespacecmr__rovernet_1_1rovernet__utils.html#a4426f1884e0e75a4166aec5e4d48576b">drives_net_table</a>['node']</td></tr>
@@ -187,6 +206,131 @@ Variables</h2></td></tr>
 <tr class="separator:a15cf34319c2b10dd8050bc6499e76c3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="ae1e0d2d83f6d46b3b3953e8ee4f9a4fb" name="ae1e0d2d83f6d46b3b3953e8ee4f9a4fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1e0d2d83f6d46b3b3953e8ee4f9a4fb">&#9670;&nbsp;</a></span>_send_moteus_command_async()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">def cmr_rovernet.rovernet_utils._send_moteus_command_async </td>
+          <td>(</td>
+          <td class="paramtype">moteus.Controller&#160;</td>
+          <td class="paramname"><em>controller</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>motor</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float | None&#160;</td>
+          <td class="paramname"><em>position</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float | None&#160;</td>
+          <td class="paramname"><em>drives_velocity</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float | None&#160;</td>
+          <td class="paramname"><em>maximum_torque</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float | None&#160;</td>
+          <td class="paramname"><em>velocity_limit</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float | None&#160;</td>
+          <td class="paramname"><em>accel_limit</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float | None&#160;</td>
+          <td class="paramname"><em>ff_torque</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">logging.Logger | None &#160;</td>
+          <td class="paramname"><em>logger</em> = <code>None</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The actual async version of sending commands to moteus. </p>
+<p >(Adapt the parameter names to match the current moteus library.) </p>
+
+</div>
+</div>
+<a id="a460f94ae9a6430a075a5132fe3b1b43f" name="a460f94ae9a6430a075a5132fe3b1b43f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a460f94ae9a6430a075a5132fe3b1b43f">&#9670;&nbsp;</a></span>_send_moteus_stop_async()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">def cmr_rovernet.rovernet_utils._send_moteus_stop_async </td>
+          <td>(</td>
+          <td class="paramtype">moteus.Controller&#160;</td>
+          <td class="paramname"><em>controller</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>motor</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">logging.Logger | None &#160;</td>
+          <td class="paramname"><em>logger</em> = <code>None</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The actual async version of stopping the servo. </p>
+
+</div>
+</div>
 <a id="a0d3d90baf4694ebc14876f332c371146" name="a0d3d90baf4694ebc14876f332c371146"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0d3d90baf4694ebc14876f332c371146">&#9670;&nbsp;</a></span>byte_command_converter()</h2>
 
@@ -317,6 +461,26 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="ab88e0d99a3b30ab2eb9946e92800b7ae" name="ab88e0d99a3b30ab2eb9946e92800b7ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab88e0d99a3b30ab2eb9946e92800b7ae">&#9670;&nbsp;</a></span>init_moteus_loop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def cmr_rovernet.rovernet_utils.init_moteus_loop </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initializes a dedicated asyncio event loop in a separate thread. </p>
+<p >Call this once at the start of your node. </p>
+
+</div>
+</div>
 <a id="a21d5b27c381874f34b5de0c72a37d0a8" name="a21d5b27c381874f34b5de0c72a37d0a8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a21d5b27c381874f34b5de0c72a37d0a8">&#9670;&nbsp;</a></span>parse_toml()</h2>
 
@@ -382,6 +546,114 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Scale a value to new boundaries from old boundaries. </p>
+
+</div>
+</div>
+<a id="afbabbd8f29c03ebe61b93129ec9f234d" name="afbabbd8f29c03ebe61b93129ec9f234d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbabbd8f29c03ebe61b93129ec9f234d">&#9670;&nbsp;</a></span>send_moteus_command_sync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def cmr_rovernet.rovernet_utils.send_moteus_command_sync </td>
+          <td>(</td>
+          <td class="paramtype">moteus.Controller&#160;</td>
+          <td class="paramname"><em>controller</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>motor</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float | None&#160;</td>
+          <td class="paramname"><em>position</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float | None&#160;</td>
+          <td class="paramname"><em>drives_velocity</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float | None&#160;</td>
+          <td class="paramname"><em>maximum_torque</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float | None&#160;</td>
+          <td class="paramname"><em>velocity_limit</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float | None&#160;</td>
+          <td class="paramname"><em>accel_limit</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float | None&#160;</td>
+          <td class="paramname"><em>ff_torque</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">logging.Logger | None &#160;</td>
+          <td class="paramname"><em>logger</em> = <code>None</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Synchronous wrapper that schedules an async call on the single global event loop thread, then waits for completion. </p>
+
+</div>
+</div>
+<a id="aefc889331cc74ca64a50f69e0e3de3cd" name="aefc889331cc74ca64a50f69e0e3de3cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefc889331cc74ca64a50f69e0e3de3cd">&#9670;&nbsp;</a></span>send_moteus_stop_sync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def cmr_rovernet.rovernet_utils.send_moteus_stop_sync </td>
+          <td>(</td>
+          <td class="paramtype">moteus.Controller&#160;</td>
+          <td class="paramname"><em>controller</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>motor</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">logging.Logger | None &#160;</td>
+          <td class="paramname"><em>logger</em> = <code>None</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Synchronous wrapper that schedules an async stop call on our single global event loop thread, then waits for completion. </p>
 
 </div>
 </div>
@@ -488,6 +760,50 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
+<a id="af0406ddf153dce2687f39af04a6f226c" name="af0406ddf153dce2687f39af04a6f226c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0406ddf153dce2687f39af04a6f226c">&#9670;&nbsp;</a></span>_moteus_loop</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">cmr_rovernet.rovernet_utils._moteus_loop = None</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af8c46522df153f1fd48cd0be8f3501f0" name="af8c46522df153f1fd48cd0be8f3501f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8c46522df153f1fd48cd0be8f3501f0">&#9670;&nbsp;</a></span>_moteus_loop_thread</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">cmr_rovernet.rovernet_utils._moteus_loop_thread = None</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ace3649841ae2b01404cb26d939b52e33" name="ace3649841ae2b01404cb26d939b52e33"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ace3649841ae2b01404cb26d939b52e33">&#9670;&nbsp;</a></span>ARM</h2>
 
@@ -1079,7 +1395,7 @@ Variables</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Nov 24 2024 17:56:17 for Terra by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4
+Generated on Mon Jan 27 2025 23:57:25 for Terra by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4
 </small></address>
 </body>
 </html>
