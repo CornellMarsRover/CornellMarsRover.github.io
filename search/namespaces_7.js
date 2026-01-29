@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['pose_5ftracking_5fexample_0',['pose_tracking_example',['../namespacepose__tracking__example.html',1,'']]]
+  ['object_5fdetection_0',['object_detection',['../namespaceobject__detection.html',1,'']]]
 ];
