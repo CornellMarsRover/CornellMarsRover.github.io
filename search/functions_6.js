@@ -8,5 +8,5 @@ var searchData=
   ['filedcalibration_5',['FiledCalibration',['../namespacecmr__imu_1_1imu.html#a4ed2bf576cd1d48742223f649e26eee1',1,'cmr_imu::imu']]],
   ['filteredhalt_6',['filteredHalt',['../classmoveit__servo_1_1ServoCalcs.html#ad7ef47a7a6e5c288bec894d4fd53fdd1',1,'moveit_servo::ServoCalcs']]],
   ['floatingpointrange_7',['floatingPointRange',['../classmoveit__servo_1_1ParameterDescriptorBuilder.html#a60197ebaa4786283c049bb8a5d5f216d',1,'moveit_servo::ParameterDescriptorBuilder']]],
-  ['fuse_5fleft_5fright_5fcolor_8',['fuse_left_right_color',['../namespacemac__opencv__pointcloud.html#a477b6641685e5e642163292d99078f26',1,'mac_opencv_pointcloud.fuse_left_right_color()'],['../namespacezed__uvc__pointcloud.html#a3b8d5c44229fe1943801da1a954cb974',1,'zed_uvc_pointcloud.fuse_left_right_color()']]]
+  ['fuse_5fleft_5fright_5fcolor_8',['fuse_left_right_color',['../namespacezed__uvc__pointcloud.html#a3b8d5c44229fe1943801da1a954cb974',1,'zed_uvc_pointcloud']]]
 ];

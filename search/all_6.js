@@ -24,5 +24,5 @@ var searchData=
   ['front_5fleft_5fswerve_21',['FRONT_LEFT_SWERVE',['../namespacecmr__rovernet_1_1rovernet__utils.html#a5fc8e3576139409d1da46d5821c7187f',1,'cmr_rovernet::rovernet_utils']]],
   ['front_5fright_22',['FRONT_RIGHT',['../namespacecmr__rovernet_1_1rovernet__utils.html#a1df906f51528c462919b619d9358c220',1,'cmr_rovernet::rovernet_utils']]],
   ['front_5fright_5fswerve_23',['FRONT_RIGHT_SWERVE',['../namespacecmr__rovernet_1_1rovernet__utils.html#a4f351bd730a6dacac92c362de6a34fab',1,'cmr_rovernet::rovernet_utils']]],
-  ['fuse_5fleft_5fright_5fcolor_24',['fuse_left_right_color',['../namespacemac__opencv__pointcloud.html#a477b6641685e5e642163292d99078f26',1,'mac_opencv_pointcloud.fuse_left_right_color()'],['../namespacezed__uvc__pointcloud.html#a3b8d5c44229fe1943801da1a954cb974',1,'zed_uvc_pointcloud.fuse_left_right_color()']]]
+  ['fuse_5fleft_5fright_5fcolor_24',['fuse_left_right_color',['../namespacezed__uvc__pointcloud.html#a3b8d5c44229fe1943801da1a954cb974',1,'zed_uvc_pointcloud']]]
 ];

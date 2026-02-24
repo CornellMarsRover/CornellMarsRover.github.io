@@ -14,11 +14,11 @@ var searchData=
   ['removedevicedata_11',['removeDeviceData',['../classcmr__imu_1_1device__model_1_1DeviceModel.html#a2ab900181991c7e5239151dab0e37956',1,'cmr_imu::device_model::DeviceModel']]],
   ['removedimension_12',['removeDimension',['../classmoveit__servo_1_1ServoCalcs.html#a0d6eb7db6c056194e0e4d27f1bf3ebd6',1,'moveit_servo::ServoCalcs']]],
   ['removedriftdimensions_13',['removeDriftDimensions',['../classmoveit__servo_1_1ServoCalcs.html#adcaca01a96ab7241b1a00189e44c31c1',1,'moveit_servo::ServoCalcs']]],
-  ['render_5fpointcloud_5fpreview_14',['render_pointcloud_preview',['../namespacemac__opencv__pointcloud.html#a751dd414d9a11d87d01cc27098390edc',1,'mac_opencv_pointcloud.render_pointcloud_preview()'],['../namespacezed__uvc__pointcloud.html#aa4e25810f0d5ff92102e0aaedc980ae2',1,'zed_uvc_pointcloud.render_pointcloud_preview()']]],
+  ['render_5fpointcloud_5fpreview_14',['render_pointcloud_preview',['../namespacezed__uvc__pointcloud.html#aa4e25810f0d5ff92102e0aaedc980ae2',1,'zed_uvc_pointcloud']]],
   ['resetlowpassfilters_15',['resetLowPassFilters',['../classmoveit__servo_1_1ServoCalcs.html#a1fd139fbb6969105d27b66fcbb1010c2',1,'moveit_servo::ServoCalcs']]],
   ['resetservostatus_16',['resetServoStatus',['../classmoveit__servo_1_1ServoCalcs.html#adf24b92e8a2084ac6f8e8e04b0292ba0',1,'moveit_servo::ServoCalcs']]],
   ['resettargetpose_17',['resetTargetPose',['../classmoveit__servo_1_1PoseTracking.html#ac9dba791fb8bd5b64aa8f76122d326e1',1,'moveit_servo::PoseTracking']]],
-  ['resolution_5ffrom_5fname_18',['resolution_from_name',['../namespacejetson__zed__sdk__pointcloud.html#a100ea8fd6d31a390f178b0ebc23cf068',1,'jetson_zed_sdk_pointcloud.resolution_from_name()'],['../namespacezed__pointcloud__viewer.html#a1da54fa871978ee63ee8923841ff91bb',1,'zed_pointcloud_viewer.resolution_from_name()']]],
+  ['resolution_5ffrom_5fname_18',['resolution_from_name',['../namespacezed__pointcloud__viewer.html#a1da54fa871978ee63ee8923841ff91bb',1,'zed_pointcloud_viewer']]],
   ['robotlinkcommandframecallback_19',['robotLinkCommandFrameCallback',['../classmoveit__servo_1_1ServoCalcs.html#abad5862e7dd2dee0bfefac50ec8c103d',1,'moveit_servo::ServoCalcs']]],
   ['run_20',['run',['../classmoveit__servo_1_1CollisionCheck.html#a57f3556106b39cd3f02f1008e0a61e2d',1,'moveit_servo::CollisionCheck']]]
 ];
