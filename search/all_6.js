@@ -1,7 +1,7 @@
 var searchData=
 [
   ['fabric_5fcomposition_0',['fabric_composition',['../namespacerovernet.html#a16f9346387d6125b7383ae093ed31046',1,'rovernet.fabric_composition()'],['../namespacegui.html#aa4c8a3cb9ce572fc0e9c998728e3bb2a',1,'gui.fabric_composition()'],['../namespaceimu.html#ab2e71173608c328c9429206ad11c45a7',1,'imu.fabric_composition()'],['../namespaceconnect.html#ab67b9b326924207a93a5c0c42ed385be',1,'connect.fabric_composition()'],['../namespacedefault.html#a7a993fc9896b2a0302649d83331cf97c',1,'default.fabric_composition()']]],
-  ['fabric_5fnode_1',['fabric_node',['../namespaceconnect.html#ab50799c8c9e0d5f804f4d8542c53ed98',1,'connect.fabric_node()'],['../namespacedefault.html#a5b60567c2732ba74e2782b796e9f622a',1,'default.fabric_node()'],['../namespaceimu.html#a1ae0a3b9bd1696d5ed1a934849c87af1',1,'imu.fabric_node()'],['../namespacegui.html#af92ed31dd93a1cdb061f66c8bf1fdf32',1,'gui.fabric_node()'],['../namespacerovernet.html#a8269eed1da1a1058cfc35c649d2abc44',1,'rovernet.fabric_node()']]],
+  ['fabric_5fnode_1',['fabric_node',['../namespacegui.html#af92ed31dd93a1cdb061f66c8bf1fdf32',1,'gui.fabric_node()'],['../namespaceimu.html#a1ae0a3b9bd1696d5ed1a934849c87af1',1,'imu.fabric_node()'],['../namespaceconnect.html#ab50799c8c9e0d5f804f4d8542c53ed98',1,'connect.fabric_node()'],['../namespacedefault.html#a5b60567c2732ba74e2782b796e9f622a',1,'default.fabric_node()'],['../namespacerovernet.html#a8269eed1da1a1058cfc35c649d2abc44',1,'rovernet.fabric_node()']]],
   ['fabric_5fnode_2ecpp_2',['fabric_node.cpp',['../fabric__node_8cpp.html',1,'']]],
   ['fabric_5fnode_2ehpp_3',['fabric_node.hpp',['../fabric__node_8hpp.html',1,'']]],
   ['fabric_5ftest_2ecpp_4',['fabric_test.cpp',['../fabric__test_8cpp.html',1,'']]],
@@ -23,5 +23,6 @@ var searchData=
   ['front_5fleft_20',['FRONT_LEFT',['../namespacecmr__rovernet_1_1rovernet__utils.html#ad994c06ee8164572123ec3ae1f95f133',1,'cmr_rovernet::rovernet_utils']]],
   ['front_5fleft_5fswerve_21',['FRONT_LEFT_SWERVE',['../namespacecmr__rovernet_1_1rovernet__utils.html#a5fc8e3576139409d1da46d5821c7187f',1,'cmr_rovernet::rovernet_utils']]],
   ['front_5fright_22',['FRONT_RIGHT',['../namespacecmr__rovernet_1_1rovernet__utils.html#a1df906f51528c462919b619d9358c220',1,'cmr_rovernet::rovernet_utils']]],
-  ['front_5fright_5fswerve_23',['FRONT_RIGHT_SWERVE',['../namespacecmr__rovernet_1_1rovernet__utils.html#a4f351bd730a6dacac92c362de6a34fab',1,'cmr_rovernet::rovernet_utils']]]
+  ['front_5fright_5fswerve_23',['FRONT_RIGHT_SWERVE',['../namespacecmr__rovernet_1_1rovernet__utils.html#a4f351bd730a6dacac92c362de6a34fab',1,'cmr_rovernet::rovernet_utils']]],
+  ['fuse_5fleft_5fright_5fcolor_24',['fuse_left_right_color',['../namespacemac__opencv__pointcloud.html#a477b6641685e5e642163292d99078f26',1,'mac_opencv_pointcloud.fuse_left_right_color()'],['../namespacezed__uvc__pointcloud.html#a3b8d5c44229fe1943801da1a954cb974',1,'zed_uvc_pointcloud.fuse_left_right_color()']]]
 ];
