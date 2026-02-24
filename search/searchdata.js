@@ -12,7 +12,7 @@ var indexSectionsWithContent =
   9: "cs",
   10: "acm",
   11: "ls",
-  12: "cmtu"
+  12: "cmtuz"
 };
 
 var indexSectionNames =
